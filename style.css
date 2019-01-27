@@ -1,0 +1,132 @@
+/*FONT AVENIR*/
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('font/AvenirNextCyr-Light.eot');
+    src: local('Avenir Next Cyr Light'), local('font/AvenirNextCyr-Light'),
+    url('font/AvenirNextCyr-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/AvenirNextCyr-Light.woff') format('woff'),
+    url('font/AvenirNextCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+/*HTML Sittings*/
+html {
+    background: url("png/Geometry high.png") no-repeat;
+    background-size: 100%;
+    font-family: "Avenir Next Cyr";
+}
+/*HEADER STYLE CSS*/
+header {
+    display: grid;
+    text-align: center;
+    margin: 22rem 0 0 -21rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+#title {
+    color: #AC8352;
+    border: none;
+    font-size: 4rem;
+}
+hr {
+    width: 45.22rem;
+    border-color: #D8D8D8;
+    margin-top: -3rem;
+    margin-bottom: -2rem;
+}
+#under_logo_name {
+    font-size: 2.495rem;
+    color: #5A3508;
+}
+/*CHAPTERS*/
+
+#ch_logistics {
+    color: #5A3508;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 8rem 0 4rem;
+}
+.chapter1, .chapter2 {
+    text-align: left;
+}
+#or {
+    margin-top: -0.7rem;
+}
+.chapter2 {
+    margin-top: -1rem;
+}
+/*CHAPTERS WITH PNG*/
+#ch_img_sec {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+#left_text {
+    padding: 0 6rem 0 4rem;
+}
+.h-chapter1 {
+    font-size: 3rem;
+    color: #AC8352;
+    letter-spacing: 0.37px;
+}
+#lt-p {
+    font-size: 2rem;
+    color: #5A3508;
+    letter-spacing: 0.27px;
+    text-align: justify;
+}
+#img-div {
+    padding: 4.5rem 0 0 0;
+}
+/*2 CHAPTERS*/
+#ch_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+#ww-ch {
+    padding: 0 6rem 0 4rem;
+}
+#sit-ch {
+    padding: 0 8rem 0 2rem;
+}
+.h-chapter {
+    font-size: 3rem;
+    color: #AC8352;
+    letter-spacing: 0.37px;
+    text-align: center;
+}
+#p-chapter {
+    font-size: 2rem;
+    color: #5A3508;
+    letter-spacing: 0.27px;
+    text-align: justify;
+}
+#sit-ul {
+    font-size: 2rem;
+    color: #5A3508;
+    text-align: justify;
+    letter-spacing: -0.3px;
+}
+/*FOOTER*/
+/*LINK*/
+footer {
+    font-size: 2rem;
+    color: #5A3508;
+    letter-spacing: 0.27px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+/*Geometry low*/
+#footer-img {
+    width: 99vw;
+}
+
+
+
+
+
+
+
+
